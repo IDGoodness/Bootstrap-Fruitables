@@ -1,0 +1,53 @@
+.topbar {
+    padding: 20px;
+    border-radius: 230px 100px;
+    background-color: yellowgreen !important;
+}
+
+.nav-item:hover {
+    color: gold;
+}
+
+.nav-item:active {
+    color: gold;
+}
+
+.topbar a {
+    text-decoration: none;
+}
+
+.hero-nav {
+    background-image: url(./img/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.featurs .featurs-item .featurs-icon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.featurs .featurs-item .featurs-icon::after {
+    content: "";
+    width: 35px;
+    height: 35px;
+    background: var(--bs-secondary);
+    position: absolute;
+    bottom: -10px;
+    transform: translate(-50%);
+    transform: rotate(45deg);
+    background: var(--bs-secondary);  
+}
+
+.featurs-icon {
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    background-color: gold !important;
+}
